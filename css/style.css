@@ -1,0 +1,109 @@
+/*Copied from html5reset.css to reset the page to a standard*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    font-family: 'Arial', 'Verdana';
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20 px 0px 20px;
+}
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+p {
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+img {
+    width: 250px;
+    border: 10px dashed #ffffff;
+}
+
+/* To center images; reference class center in html file 
+(https://www.w3schools.com/howto/howto_css_image_center.asp) */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+  }
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+.blue p {
+    color: #C4C4C4;
+}
+.blue h2 {
+    color: #C4C4C4;
+}
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+.yellow p {
+    color: #707070;
+}
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+footer {
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: 5px solid #ffffff;
+}
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15 15px 0px;
+}
