@@ -23,7 +23,9 @@ body {
     font-family: 'Arial', 'Verdana';
     background-color: #000000;
     color: #ffffff;
-    margin: 20px 20 px 0px 20px;
+    margin-left: 20px;
+    margin-right: 20 px;
+    margin-top: 20px;
 }
 h1 {
     font-size: 42px;
@@ -49,7 +51,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
 }
 div {
     min-height: 125px;
@@ -105,5 +106,7 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px 15 15px 0px;
+    padding-top: 15px;
+    padding-right: 15px; 
+    padding-bottom: 15px;
 }
